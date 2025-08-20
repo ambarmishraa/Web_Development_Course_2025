@@ -1,0 +1,16 @@
+.heading-h1{
+    color: red;
+}
+/* This is method to select by element selector */
+p{
+    color:blue;
+}
+/* This is method to select by class */
+.heading-h2{
+    color:yellow;
+}
+
+/* This is method to select by id */
+#hero-h1{
+    color:green
+}
