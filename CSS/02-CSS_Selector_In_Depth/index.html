@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        p {
+            color: red;
+        }
+
+        h1 {
+            color: blue
+        }
+
+        #id-selector {
+            color: green
+        }
+
+        .p-class {
+            color: aquamarine
+        }
+
+        .p-gs {
+            color: brown
+        }
+
+        /* h2{
+            color:red
+        }
+        h3{
+            color:red
+        }
+        h4{
+            color:red
+        } */
+        /* h2,
+        h3,
+        h4 {
+            color: red
+        } */
+
+        .h2-gs,
+        .h3-gs,
+        .h4-gs {
+            color: blue
+        }
+
+        #h2-gs,
+        #h3-gs,
+        #h4-gs {
+            color: yellow
+        }
+
+        /* *{
+            background-color: red;
+            font-size:200px
+         } */
+
+         /* div h2{
+            color:red
+         } */
+
+         /* .c-h1 h2{
+            color:red;
+            font-size: 200px;
+         } */
+
+         .div-h2 h2{
+            color:blue
+         }
+
+         .div-h2>h3{
+            color:red
+         }
+
+         .div-h2+h3{
+            color:blue
+         }
+
+         .div-h2~h3{
+            color:aqua
+         }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>Selector in Depth</h1>
+    <!-- Element Selector -->
+    <p>This is example of element selector</p>
+
+    <!-- Id Selector -->
+    <p id="id-selector">This is example of id selector</p>
+
+    <!-- Class Selector -->
+    <p class="p-class">This is example of class selector</p>
+
+    <h1>Grouping Selector</h1>
+    <p class="p-gs">This is line one</p>
+    <h2>Like</h2>
+    <h3>Share</h3>
+    <h4>Subscribe</h4>
+
+    <h2 class="h2-gs">Like</h2>
+    <h3 class="h3-gs">Share</h3>
+    <h4 class="h4-gs">Subscribe</h4>
+
+    <h2 id="h2-gs">Like</h2>
+    <h3 id="h3-gs">Share</h3>
+    <h4 id="h4-gs">Subscribe</h4>
+
+    <h1>Universal Selector</h1>
+
+    <h1>Combinators in Css
+        <h2>Descendent Selector</h2>
+    </h1>
+
+    <!-- <h1 class="c-h1">Combinators in Css
+        <h2>Descendent Selector</h2>
+    </h1> -->
+    <div class="div-h2">
+        <h2>Descendent Selector</h2>
+    </div>
+
+    <!-- This is child selector example -->
+    <div class="div-h2">
+        <h3>Descendent Selector</h3>
+    </div>
+    <h3>This is adjancent change1</h3>
+    <h3>This is adjancent change2</h3>
+    <h3>This is adjancent change3</h3>
+    <h3>This is adjancent change4</h3>
+    
+</body>
+
+</html>
